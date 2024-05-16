@@ -1,0 +1,112 @@
+[
+    {
+        "id":  1,
+        "nom" : "Découverte du Cirque de Gavarnie",
+        "lieu" : "Gavarnie (65120)",
+        "km" : "8,17km",
+        "difficulte" : "Facile",
+        "temps" : "3h",
+        "altitude": "212 m de D+ et D-",
+        "description" : "Le Cirque de Gavarnie est un espace naturel préservé exceptionnel. Il est, de ce fait, classé au Patrimoine Mondial de l'Humanité par l'Unesco. Cette randonnée facile d'accès vous en donnera en premier aperçu !",
+        "image" : ""
+    },
+    {
+        "id":  2,
+        "nom" : "La Cascade de l'Andlau dans la Forêt du Hohwald",
+        "lieu" : "Le Howald (67140)",
+        "km" : "5,15km",
+        "difficulte" : "Facile",
+        "temps" : "2h",
+        "altitude": "121 m de D+ et D-",
+        "description" : "Dans une très belle ambiance forestière, on franchit de nombreux ruisseaux et on aboutit à la cascade que la rivière Andlau fait au milieu des rochers. Une randonnée courte, avec des pentes modérées et un joli but, idéale avec de jeunes enfants ou des promeneurs occasionnels.",
+        "image" : "./assets/imagesRandos/cascadeAndlau.jpg"
+    },
+    {
+        "id": 3,
+        "nom" : "Le Capo Rosso",
+        "lieu" : "Piana (20115)",
+        "km" : "7,9km",
+        "difficulte" : "Moyenne",
+        "temps" : "3h30",
+        "altitude": "454 m de D+ et D-",
+        "description" : "Belle randonnée qui permet de découvrir la côte du Capo Rosso jusqu'au sommet de la tour Génoise qui surplombe le Cap.Le chemin facile au début se termine sur les rochers qui forment le Capo Rosso.La randonnée se fait par un aller/retour du parking jusqu'au sommet de la tour Génoise de Turghiu.",
+        "image" : "./assets/imagesRando/le_capo_rosso"
+    },
+    {
+        "id": 4,
+        "nom" : "La mare aux Fées, la Montagne, le Carrosse et la Grotte Béatrix",
+        "lieu" : "Fontainebleau (77300)",
+        "km" : "16,17km",
+        "difficulte" : "Moyenne",
+        "temps" : "5h10",
+        "altitude": "200 m de D+ et de D-",
+        "description" : "Une boucle au coeur de Fontainebleau: une magnifique mare poétique, des chênes vénérables, 4 points de vue, des souvenirs de batailles révolutionnaires, une grotte, un gouffre, des falaises de grès...et beaucoup de calme en général.",
+        "image" : ""
+    },
+    {
+        "id": 5,
+        "nom" : "Boucle au col d'lbardin",
+        "lieu" : "Urrugne (64122)",
+        "km" : "10,3km",
+        "difficulte" : "Moyenne",
+        "temps" : "4h20",
+        "altitude": "474 m de D+ et D-",
+        "description" : "Belle randonnée qui marie de superbes points de vues et des chemins variés . À faire absolument par beau temps pour profiter des paysages qui s'offrent à vous.",
+        "image" : ""
+    },
+    {
+        "id": 6,
+        "nom" : "Patrimoine autour de Plomeur",
+        "lieu" : "Plomeur (29120)",
+        "km" : "23,59km",
+        "difficulte" : "Difficile",
+        "temps" : "6h50",
+        "altitude": "33 m de D+ et de D-",
+        "description" : "À la découverte d'un exceptionnel patrimoine religieux, mégalithique et naturel entre le bourg de Plomeur et la Pointe de la Torche, par des sentiers bucoliques, des chemins d'exploitation et des petites routes paisibles.",
+        "image" : ""
+    },
+    {
+        "id": 7,
+        "nom" : "Le Cap Gris Nez au départ d'Ambleteuse",
+        "lieu" : "Ambleteuse (62164)",
+        "km" : "19,53km",
+        "difficulte" : "Moyenne",
+        "temps" : "6h",
+        "altitude": "155 m de D+ et de D-",
+        "description" : "Une boucle au départ du vieux fort d'Ambleteuse vers le Cap Gris Nez : aller le long de la mer sur les falaises et retour par l'intérieur des terres en passant par des vestiges de blockhaus.",
+        "image" : ""
+    },
+    {
+        "id": 8,
+        "nom" : "Le Château de Chambord et ses chemins perdus",
+        "lieu" : "Chambord (41250)",
+        "km" : "9,15km",
+        "difficulte" : "Facile",
+        "temps" : "2h40",
+        "altitude": "29 m de D+ et de D-",
+        "description" : "Cette balade dans le parc de Chambord débute par l'approche du château en suivant la rive gauche du Cosson, se poursuit sur un petit chemin serpentant dans la forêt pour enfin rejoindre le point de départ via la rive droite du Cosson et le Pont Saint-Michel, en offrant une dernière vue, inoubliable, du château.",
+        "image" : ""
+    },
+    {
+        "id": 9,
+        "nom" : "Chamechaude depuis le Col de Porte",
+        "lieu" : "Sarcenas (38700)",
+        "km" : "7,69km",
+        "difficulte" : "Difficile",
+        "temps" : "4h25",
+        "altitude": "785 m de D+ et de D- ",
+        "description" : "Magnifique panorama sur la Chartreuse, vue sur le Mont Blanc, le Mont Aiguille et le Vercors ",
+        "image" : ""
+    },
+    {
+        "id": 10,
+        "nom" : "L'Oratoire Sainte-Thérèse et la Plaine des Sables",
+        "lieu" : " Saint-Joseph (La Réunion) (97480)",
+        "km" : "7,5km",
+        "difficulte" : "Moyenne",
+        "temps" : "2h45",
+        "altitude": "219 m de D+ et de D",
+        "description" : "Cette petite randonnée, qui part du Pas des Sables, se poursuit en bord de falaise et offre de belles perspectives sur la Plaine des Sables puis sur le rempart et de fond de la Rivière de l'Est. Après l'oratoire, une descente assez raide permet de rejoindre la Plaine des Sables. La traversée de cette plaine permet de découvrir la beauté des paysages de cette zone aride.",
+        "image" : ""
+    }
+]
