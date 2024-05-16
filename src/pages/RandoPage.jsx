@@ -1,10 +1,5 @@
-function RandoPage() {
 
-    return (
-<>
-
-</>
-    )
+export default function RandoPage(){
+    return
 }
 
-export default RandoPage;

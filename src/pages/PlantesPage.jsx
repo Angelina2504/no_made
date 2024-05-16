@@ -1,10 +1,12 @@
-function PlantesPage() {
 
-    return (
-<>
+import CardlistPlantes from "../components/CardListPlantes";
 
-</>
-    )
+
+export default function PlantesPage() {
+  return (
+    <>
+ 
+      <CardlistPlantes />
+    </>
+  );
 }
-
-export default PlantesPage;
