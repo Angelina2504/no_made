@@ -1,0 +1,47 @@
+body {
+    background-image: url('../assets/bgHome.jpg');
+    background-size: cover;
+}
+
+.homePage {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.audio-container {
+   display: flex;
+   justify-content: space-around;
+   margin: auto;
+   transform: translate( 20% ) ;
+}
+
+.audio {
+    display: inline-block;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.button-container {
+   transform: translate( 22%, 600px) ;
+}
+
+.buttonPlantes {
+  display: inline-block;
+  border: 2px solid black; 
+  border-radius: 5px; 
+  text-decoration: none;
+  background-color: white;
+  color: black; 
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 95px;
+}
+
+.citation {
+    transform: translate( 10%, 225%);
+    text-shadow: black 1px 1px 10px;
+    font-size: x-large;
+}
+
