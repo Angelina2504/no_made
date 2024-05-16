@@ -1,6 +1,7 @@
-export default function Navbar () {
-
-return (
-    <> </>
-)
+export default function Navbar() {
+  return (
+    <>
+   
+    </>
+  );
 }
