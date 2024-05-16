@@ -1,0 +1,35 @@
+.container {
+  background-color: #acbdad;
+  display: flex;
+  flex-direction: column; /* Modifier la direction en colonne */
+  align-items: center; /* Centrer horizontalement */
+  margin: 10rem;
+  width: 45rem;
+  height: 40rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 26px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imgRando {
+  width: 50%;
+  height: 240px;
+  object-fit: contain;
+  box-shadow: 2px 1px 4px rgb(80, 33, 33);
+
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.nomRando {
+  color: rgb(36, 69, 36);
+  font-size: 2.3rem;
+  margin-top: 1rem; /* Ajuster la marge pour positionner le nom */
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+  gap: 10px;
+}

@@ -1,3 +1,9 @@
-export default function RandoPage(){
-    return
+import CardlistRando from "../components/CardListRando";
+
+export default function RandoPage() {
+  return (
+    <>
+      <CardlistRando />
+    </>
+  );
 }

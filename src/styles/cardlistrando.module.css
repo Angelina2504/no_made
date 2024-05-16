@@ -1,0 +1,36 @@
+.AllCardRando {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  justify-content: center;
+}
+
+.titreRando {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.containerButton {
+  .buttonSuivant {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-decoration: none;
+  }
+  .button {
+    background-color: #f27329;
+    border: none;
+    border-radius: 15px;
+    width: 14rem;
+    height: 1.9rem;
+  }
+  /* .citation{
+      position: fixed;
+      top:70%;
+      bottom: 30%;
+    } */
+}
