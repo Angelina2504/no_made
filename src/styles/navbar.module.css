@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: end;
+  background: linear-gradient(rgb(107, 158, 107), transparent);
+  padding: 2em;
+  height: 3em;
+}
+.logo{
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  bottom : 3rem;
+  right: 45rem;
+  
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+li {
+  font-size: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
