@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: end;
-  background: linear-gradient(rgb(107, 158, 107), transparent);
+
   padding: 2em;
   height: 3em;
 }
@@ -10,7 +10,7 @@
   height: 14rem;
   position: relative;
   bottom : 3rem;
-  right: 45rem;
+  right: 2rem;
   
 }
 
@@ -28,4 +28,15 @@ li {
 .link {
   text-decoration: none;
   color: black;
+}
+@media screen and (width >= 1200px) {
+.logo{
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  bottom : 3rem;
+  right: 45rem;
+  
+}
+
 }
