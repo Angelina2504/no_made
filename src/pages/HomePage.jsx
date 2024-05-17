@@ -7,11 +7,7 @@ function Homepage() {
     return (
    
      <div className="homePage">
-    <div className="audio-container">
-     <audio className='audio' controls autoPlay >
-        {/* <source src="/birdsong-in-kabaty.wav" type="audio/wav" /> */}
-     </audio>
-    </div>
+    
 
     <div className='citation'>
         <blockquote className='phrase'>"Ne demande jamais ton chemin à quelqu'un qui le connaît, car tu ne pourrais pas t'égarer !"</blockquote>
@@ -21,7 +17,11 @@ function Homepage() {
     <div className="button-container">
     <Link to="http://localhost:5173/plantes" className="buttonPlantes">Découvrir</Link>
     </div>
-
+<div className="audio-container">
+     <audio className='audio' controls autoPlay >
+        {/* <source src="/birdsong-in-kabaty.wav" type="audio/wav" /> */}
+     </audio>
+    </div>
         </div>
     )
 }
