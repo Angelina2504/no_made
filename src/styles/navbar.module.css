@@ -1,28 +1,25 @@
 .navbar {
   display: flex;
-  justify-content: end;
-
+  justify-content: center;
   padding: 2em;
   height: 3em;
-  width: 85rem;
 }
-.logo{
+.logo {
   width: 14rem;
   height: 14rem;
   position: relative;
-  bottom : 3rem;
+  bottom: 3rem;
   right: 2rem;
-  
 }
 
 .nav-list {
   display: flex;
   list-style: none;
-  gap: 1em;
 }
 li {
-  font-size: 2rem;
-  padding-right: 2rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 0.6rem;
   text-decoration: none;
 }
 
@@ -31,13 +28,29 @@ li {
   color: black;
 }
 @media screen and (width >= 1200px) {
-.logo{
-  width: 14rem;
-  height: 14rem;
-  position: relative;
-  bottom : 3rem;
-  right: 45rem;
-  
-}
-
+  .navbar {
+    display: flex;
+    justify-content:center;
+    padding: 2em;
+    height: 3em;
+  }
+  .logo {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    bottom: 3rem;
+    right: 45rem;
+  }
+  li {
+    font-size: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: end;
+    padding: 2em;
+    height: 3em;
+    width: 85rem;
+  }
 }
