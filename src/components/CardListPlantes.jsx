@@ -1,3 +1,4 @@
+import { useState } from "react";
 import plantes from "../assets/data/plantes.json";
 import CardsPlantes from "../components/CardsPlantes";
 import { Link } from "react-router-dom";
@@ -5,6 +6,13 @@ import style from "../styles/cardlistplante.module.css";
 import imag from "../../public/imagesPlantes/tree.jpg";
 
 export default function CardListPlantes() {
+  const [filterChoice, setFilterChoice] = useState("");
+
+  const filteredPlantes = plantes.filter((plantes) =>
+  filterChoice ? plantes.type === filterChoice : true
+);
+
+  
   return (
     <>
     <article className={style.allPage}> 
@@ -20,9 +28,21 @@ export default function CardListPlantes() {
         fugiat voluptatem! Doloribus aliquam fugiat eligendi quam reprehenderit
         laboriosam voluptates sed dignissimos perferendis?
       </p>
+      <form className="center">
+        <label htmlFor="plantes-select">
+         
+          Filtrer par{" "}
+          <select id="plantes-select" onChange={(e) => setFilterChoice(e.target.value)}>
+          <option value="">---</option>
+          <option value="arbre">Arbre</option>
+          <option value="fleur">Fleur</option>
+          </select>
+        </label>
+      </form>
+
       <div className={style.AllCardPlant}>
-        {plantes.map((p) => (
-          <CardsPlantes plante={p} key={p.id} />
+        {filteredPlantes.map((plante) => (
+          <CardsPlantes plante={plante} key={plante.id} />
         ))}
       </div>
 
