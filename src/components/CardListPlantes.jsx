@@ -28,14 +28,14 @@ export default function CardListPlantes() {
         fugiat voluptatem! Doloribus aliquam fugiat eligendi quam reprehenderit
         laboriosam voluptates sed dignissimos perferendis?
       </p>
-      <form className="center">
+      <form className={style.form}>
         <label htmlFor="plantes-select">
          
           Filtrer par{" "}
-          <select id="plantes-select" onChange={(e) => setFilterChoice(e.target.value)}>
+          <select className={style.select} id="plantes-select" onChange={(e) => setFilterChoice(e.target.value)}>
           <option value="">---</option>
           <option value="arbre">Arbre</option>
-          <option value="fleur">Fleur</option>
+          <option value="fleur">Fleurs</option>
           </select>
         </label>
       </form>
