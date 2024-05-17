@@ -10,8 +10,7 @@ function Homepage() {
     
 
     <div className='citation'>
-        <blockquote className='phrase'>"Ne demande jamais ton chemin à quelqu'un qui le connaît, car tu ne pourrais pas t'égarer !"</blockquote>
-        <cite className='auteur'>Nahman de Braslaw</cite>
+    Avec No-made, osez l'aventure intérieure et extérieure avec des randonnées inspirantes,<br/> découvrez la flore et respirez le bon air frais de la nature.
     </div>
 
     <div className="button-container">

@@ -50,13 +50,17 @@ margin-top: 15rem;
   font-size: large;
   font-weight: bold;
   padding: 10px 95px;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .citation {
-  padding-top: 20rem;
-  text-shadow: black 1px 1px 10px;
-  font-size: x-large;
+  padding-top: 15rem;
+  /* padding-bottom: 1.5rem; */
+  color: white;
+  font-weight: 300;
+  text-shadow: rgb(11, 11, 11) 1px 1px 10px;
+  font-size: 2rem;
+  text-align: center;
 }
 @media screen and (width >= 1200px) {
 
