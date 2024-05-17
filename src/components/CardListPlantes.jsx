@@ -17,8 +17,6 @@ export default function CardListPlantes() {
     <>
       <article className={style.allPage}>
         <img className={style.imgArbre} src={imag} />
-<<<<<<< HEAD
-=======
    
       {/* <div className={style.citationUn}>Lorem ipsum Lorem ipsum</div>
       <div className={style.citationDeux}>Lorem ipsum Lorem ipsum</div> */}
@@ -46,7 +44,6 @@ export default function CardListPlantes() {
           <CardsPlantes plante={plante} key={plante.id} />
         ))}
       </div>
->>>>>>> 6820baed5a1c0660278e311bf7a8514eb487947b
 
         <p className={style.titrePlante}>
           "Je me suis promené dans les bois et je suis sorti plus grand que les
