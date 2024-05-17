@@ -1,19 +1,15 @@
-
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
 import "../styles/homePage.css"
 
 
 function Homepage() {
    
     return (
+   
      <div className="homePage">
-
-            <Navbar/>
-       
     <div className="audio-container">
      <audio className='audio' controls autoPlay >
-        <source src="/birdsong-in-kabaty.wav" type="audio/wav" />
+        {/* <source src="/birdsong-in-kabaty.wav" type="audio/wav" /> */}
      </audio>
     </div>
 
@@ -31,4 +27,3 @@ function Homepage() {
 }
 
 export default Homepage;
-

@@ -5,9 +5,9 @@ import './App.css'
 export default function App () {
 
   return (
-   <>
+   <> <Navbar/>
    <main> 
-    <Navbar/>
+   
     <Outlet/>
    </main>
     

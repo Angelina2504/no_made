@@ -1,47 +1,55 @@
 body {
-    background-image: url('../assets/bgHome.jpg');
-    background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  backface-visibility: hidden;
 }
 
 .homePage {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  background-image: url("../assets/bgHome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.phrase {
+  padding-top: 5rem;
+  color: #fde9cc;
+}
 .audio-container {
-   display: flex;
-   justify-content: space-around;
-   margin: auto;
-   transform: translate( 20% ) ;
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
 }
 
 .audio {
-    display: inline-block;
-    height: 20px;
-    border-radius: 15px;
-}
-
-.button-container {
-   transform: translate( 22%, 600px) ;
+  display: inline-block;
+  height: 20px;
+  border-radius: 15px;
 }
 
 .buttonPlantes {
   display: inline-block;
-  border: 2px solid black; 
-  border-radius: 5px; 
+  border: 2px solid black;
+  border-radius: 5px;
   text-decoration: none;
   background-color: white;
-  color: black; 
+  color: black;
   font-size: large;
   font-weight: bold;
   padding: 10px 95px;
 }
 
 .citation {
-    transform: translate( 10%, 225%);
-    text-shadow: black 1px 1px 10px;
-    font-size: x-large;
+  text-shadow: black 1px 1px 10px;
+  font-size: x-large;
 }
-

@@ -1,5 +1,5 @@
 .imgPlante {
-  width: 16rem;
+  width: 25rem;
   height: 16rem;
   object-fit: cover;
   box-shadow: 2px 1px 4px rgb(80, 33, 33);
@@ -9,15 +9,18 @@
 .nomPlante {
   color: rgb(36, 69, 36);
   font-size: 2.3rem;
+  padding-top: 1rem;
 }
 .container {
-  background-color: #ACBDAD;
-
+  /* background-color: #ACBDAD; */
+  padding-top: 2rem;
+  background-color: #dffdd6c8;
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 2rem;
-  width: 70rem;
-  height: 18rem;
+  width: 30rem;
+  height: 40rem;
   border-radius: 10px;
   box-shadow: 0 10px 26px 0 rgba(0, 0, 0, 0.5);
 }
@@ -28,4 +31,20 @@
   justify-content: space-around;
   padding: 0 5rem;
   gap: 1rem;
+}
+
+@media screen and (width >= 1200px) {
+  .container {
+    flex-direction: row;
+    width: 70rem;
+    height: 18rem;
+    padding-top: 0rem;
+  }
+  .nomPlante {
+    padding-top: 1rem;
+  }
+  .imgPlante {
+    width: 16rem;
+    height: 16rem;
+  }
 }
