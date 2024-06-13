@@ -1,98 +1,121 @@
+
 [
-  {
-    "id": 1,
-    "nom": "Chêne",
-    "espece": "Quercus robur",
-    "environnement": "Forêts tempérées",
-    "description": "Le chêne est un arbre majestueux reconnu pour sa longévité et son bois solide.",
-    "image": "./assets/imagesPlantes/chêne.jpg"
-  },
-  {
-    "id": 2,
-    "nom": "Le Cèdre",
-    "espece": "Pinacées",
-    "environnement": "",
-    "description": "Cet arbre majestueux vous épatera par sa taille, puisqu’il peut atteindre 40 mètres de haut ! Il est facilement identifiable à sa forme pyramidale et la flèche qui le surmonte. Sur son tronc droit, l'écorce est d’abord lisse, gris clair, puis se craquelle peu à peu avec le temps, prenant alors une teinte grise brunâtre terne, parsemée de petites écailles.",
-    "image": "./assets/imagesPlantes/cèdre (2).jpg"
-  },
-  {
-    "id": 3,
-    "nom": "Bouleau",
-    "espece": "Betula pendula",
-    "environnement": "Forêts boréales",
-    "description": "Lisse et fine, l’écorce du Bouleau se démarque par sa couleur blanche, voire grise argentée. Son tronc est couvert de petits pores sombres dans son jeune âge qui s’épaississent et se fissurent avec le temps. Résistants au froid, c’est en hiver que les Bouleaux expriment la beauté de leur écorce. La sève du Bouleau possède de nombreuses vertus, notamment des propriétés anti-inflammatoires, diurétiques et drainantes. ",
-    "image": "./assets/imagesPlantes/bouleau (2).jpg"
-  },
-  {
-    "id": 4,
-    "nom": "Erable",
-    "espece": "Acer saccharum",
-    "environnement": "Forêts tempérées",
-    "description": "Parfois confondu avec le Platane, du fait de la ressemblance de leurs feuilles, l’Érable plane culmine à 30 mètres de hauteur et vit plus d’un siècle ! L'érable est célèbre pour sa sève qui est utilisée pour produire du sirop d'érable.",
-    "image": "./assets/imagesPlantes/érable.jpg"
-  },
-  {
-    "id": 5,
-    "nom": "Pin",
-    "espece": "Pinacées",
-    "environnement": "Region à climat tempéré-froid",
-    "description": "En général, les pins sont des arbres de grande taille à croissance monopodiale, il ont des feuilles en forme d'aiguilles plus ou moins piquantes, souvent d'un vert foncé, et qui sont persistantes5. Les pins sont des essences sociales de pleine lumière, qui supportent bien la sécheresse, et les sols pauvres et pour plusieurs espèces les embruns salés.",
-    "image": "./assets/imagesPlantes/pin.jpg"
-  },
-  {
-    "id": 6,
-    "nom": "Hêtre",
-    "espece": "Fagaceae",
-    "environnement": "Region à climat tempéré-humide",
-    "description": "Planté auprès des Chênes, il profite de leur ombre dont il a besoin pour grandir et s’épanouir… avant de les dominer du haut de ses 40 mètres. Oscillant entre blanc et rosé, moucheté de mailles foncées, le bois du Hêtre est dur et résiste au temps.  ",
-    "image": "./assets/imagesPlantes/hêtre.jpg"
-  },
-  {
-    "id": 7,
-    "nom": "Tilleul",
-    "espece": "Forestière",
-    "environnement": "Région cakcaires",
-    "description": "Le tilleul est un genre de plantes vivaces, au feuillage caduc de la famille des Malvaceae, natif de l’hémisphère nord. Les plus grandes espèces peuvent atteindre plus de 40 mètres de haut et peuvent résister à des températures aux alentours des -30 degrés. Le tilleul est connu pour ses fleurs odorantes et pour ses feuilles en forme de cœur.",
-    "image": "/assets/imagesPlantes/tilleul.jpg"
-  },
-  {
-    "id": 8,
-    "nom": "Tournesol",
-    "espece": "Helianthus annuus",
-    "environnement": "Champs et jardins",
-    "description": "Le tournesol est reconnu pour ses grandes fleurs jaunes et sa capacité à suivre la course du soleil.",
-    "image": "./assets/imagesPlantes/tournesol.jpg"
-  },
-  {
-    "id": 9,
-    "nom": "Violette",
-    "espece": "Viola odorata",
-    "environnement": "Forêts et jardins",
-    "description": "La violette est une petite fleur parfumée, souvent utilisée pour ses propriétés médicinales et en parfumerie.",
-    "image": ""
-  },
-  {
-    "id": 10,
-    "nom": "Marguerite",
-    "espece": "Leucanthemum vulgar",
-    "environnement": "Prairies et jardins",
-    "description": "La marguerite est une fleur simple et jolie, avec des pétales blancs et un cœur jaune.",
-    "image": "./assets/imagesPlantes/violette.jpg"
-  },
-  {
-    "id": 11,
-    "nom": "Bleuet",
-    "espece": "Cyanus segetum Hill",
-    "environnement": "Champs",
-    "description": "Le bleuet est une très belle fleur bleue qui s’épanouissait dans les champs de maïs et de céréales. On la voit de moins en moins de nos jours dans la nature, mais elle est cultivée aux jardins de plus en plus, car elle apporte une jolie teinte.",
-    "image": "./assets/imagesPlantes/bleuet.jpg"
-  },
-  {
-    "id": 12,
-    "nom": "Coquelicot",
-    "espece": " Papaver rhoas",
-    "environnement": "Champs et jardins",
-    "description": "Le coquelicot est une jolie fleur légère qui apparait durant le printemps. On aime sa teinte éclatante rouge-orangé et c’est une plante qui se plait parfaitement au jardin. Elle aime les sols riches et propres et elle se ressème très facilement. Elle est souvent appelée pavot sauvage ou des champs.",
-    "image": "./assets/imagesPlantes/coquelicot.jpg"
-  }
+    {
+        "id" : 1, 
+        "type":"arbre",
+        "nom" : "Chêne",
+        "espece" : "Quercus robur",
+        "environnement" : "Forêts tempérées",
+        "description" : "Les chênes sont des arbres élevés, plus rarement des arbrisseaux, à enracinement généralement profond. De croissance rapide, certaines espèces atteignent plusieurs dizaines de mètres de haut (chêne sessile), d'autres forment de grands arbustes (chêne vert) ou des arbrisseaux (chêne kermès). Espèces sociales, exigeantes en lumière, elles ont un tronc élevé droit ou tortueux ; généralement crevassé. Quelques espèces comme le chêne tauzin sont drageonnantes34.",
+        "image" : "../../../public/imagesPlantes/chenee.jpg"
+    },
+    {
+        "id" : 2, 
+        "type":"arbre",
+        "nom" : "Le Cèdre",
+        "espece" : "Pinacées",
+        "environnement" : "Afrique du nord, Chypre, Himalaya",
+        "description" : "Cet arbre majestueux vous épatera par sa taille, puisqu’il peut atteindre 40 mètres de haut ! Il est facilement identifiable à sa forme pyramidale et la flèche qui le surmonte. Sur son tronc droit, l'écorce est d’abord lisse, gris clair, puis se craquelle peu à peu avec le temps, prenant alors une teinte grise brunâtre terne, parsemée de petites écailles.",
+        "image" : "../../../public/imagesPlantes/cedre.jpg"
+    },
+    {
+        "id" :3, 
+        "type":"arbre",
+        "nom" : "Bouleau",
+        "espece" : "Betula pendula",
+        "environnement" : "Forêts boréales",
+        "description" : "Lisse et fine, l’écorce du Bouleau se démarque par sa couleur blanche, voire grise argentée. Son tronc est couvert de petits pores sombres dans son jeune âge qui s’épaississent et se fissurent avec le temps. Résistants au froid, c’est en hiver que les Bouleaux expriment la beauté de leur écorce. La sève du Bouleau possède de nombreuses vertus, notamment des propriétés anti-inflammatoires, diurétiques et drainantes. ",
+        "image" : "../../../public/imagesPlantes/bouleau.jpg"
+
+    },
+    {
+        "id" : 4, 
+        "type":"arbre",
+        "nom" : "Erable",
+        "espece" : "Acer saccharum",
+        "environnement" : "Forêts tempérées",
+        "description" : "Parfois confondu avec le Platane, du fait de la ressemblance de leurs feuilles, l’Érable plane culmine à 30 mètres de hauteur et vit plus d’un siècle ! L'érable est célèbre pour sa sève qui est utilisée pour produire du sirop d'érable.",
+        "image" : "../../../public/imagesPlantes/erable.jpg"
+
+    },
+    {
+        "id" : 5, 
+        "type":"arbre",
+        "nom" : "Pin",
+        "espece" : "Pinacées",
+        "environnement" : "Region à climat tempéré-froid",
+        "description" : "En général, les pins sont des arbres de grande taille à croissance monopodiale, il ont des feuilles en forme d'aiguilles plus ou moins piquantes, souvent d'un vert foncé, et qui sont persistantes5. Les pins sont des essences sociales de pleine lumière, qui supportent bien la sécheresse, et les sols pauvres et pour plusieurs espèces les embruns salés.",
+        "image" : "../../../public/imagesPlantes/pin.jpg"
+
+    },
+    {
+        "id" : 6, 
+        "type":"arbre",
+        "nom" : "Hêtre",
+        "espece" : "Fagaceae",
+        "environnement" : "Region à climat tempéré-humide",
+        "description" : "Planté auprès des Chênes, il profite de leur ombre dont il a besoin pour grandir et s’épanouir… avant de les dominer du haut de ses 40 mètres. Oscillant entre blanc et rosé, moucheté de mailles foncées, le bois du Hêtre est dur et résiste au temps.  ",
+        "image" : "../../../public/imagesPlantes/hetre.jpg"
+
+    },
+    {
+        "id" : 7 , 
+        "type":"fleur",
+        "nom" : "Tilleul",
+        "espece" : "Forestière",
+        "environnement" : "Région cakcaires",
+        "description" : "Le tilleul est un genre de plantes vivaces, au feuillage caduc de la famille des Malvaceae, natif de l’hémisphère nord. Les plus grandes espèces peuvent atteindre plus de 40 mètres de haut et peuvent résister à des températures aux alentours des -30 degrés. Le tilleul est connu pour ses fleurs odorantes et pour ses feuilles en forme de cœur.",
+        "image" : "../../../public/imagesPlantes/tilleul.jpg"
+
+    },
+    {
+        "id" : 8, 
+        "type":"fleur",
+        "nom" : "Tournesol",
+        "espece" : "Helianthus annuus",
+        "environnement" : "Champs et jardins",
+        "description" : "Le tournesol est reconnu pour ses grandes fleurs jaunes et sa capacité à suivre la course du soleil.",
+        "image" : "../../../public/imagesPlantes/tournesol.jpg"
+
+    },
+    {
+        "id" : 9, 
+        "type":"fleur",
+        "nom" : "Violette",
+        "espece" : "Viola odorata",
+        "environnement" : "Forêts et jardins",
+        "description" : "La violette est une petite fleur parfumée, souvent utilisée pour ses propriétés médicinales et en parfumerie.",
+        "image" : "../../../public/imagesPlantes/violette.jpg"
+
+    },
+    {
+        "id" : 10, 
+        "type":"fleur",
+        "nom" : "Marguerite",
+        "espece" : "Leucanthemum vulgar",
+        "environnement" : "Prairies et jardins",
+        "description" : "La marguerite est une fleur simple et jolie, avec des pétales blancs et un cœur jaune.",
+        "image" : "../../../public/imagesPlantes/marguerite.jpg"
+
+    },
+    {
+        "id" : 11, 
+        "type":"fleur",
+        "nom" : "Bleuet",
+        "espece" : "Cyanus segetum Hill",
+        "environnement" : "Champs",
+        "description" : "Le bleuet est une très belle fleur bleue qui s’épanouissait dans les champs de maïs et de céréales. On la voit de moins en moins de nos jours dans la nature, mais elle est cultivée aux jardins de plus en plus, car elle apporte une jolie teinte.",
+        "image" : "../../../public/imagesPlantes/bleuet.jpg"
+
+    },
+    {
+        "id" : 12, 
+        "type":"fleur",
+        "nom" : "Coquelicot",
+        "espece" : " Papaver rhoas",
+        "environnement" : "Champs et jardins",
+        "description" : "Le coquelicot est une jolie fleur légère qui apparait durant le printemps. On aime sa teinte éclatante rouge-orangé et c’est une plante qui se plait parfaitement au jardin. Elle aime les sols riches et propres et elle se ressème très facilement. Elle est souvent appelée pavot sauvage ou des champs.",
+        "image" : "../../../public/imagesPlantes/coquelicot.jpg"
+
+    }
 ]
