@@ -36,7 +36,6 @@ body{
   object-fit: cover;
   height: 15rem;
   width: 40rem;
-  /* filter: blur(1px); */
   opacity: 80%;
   display: flex;
   text-align: center;
@@ -70,7 +69,6 @@ body{
     
     height: 15rem;
     width: 100rem;
-    /* filter: blur(1px); */
     opacity: 80%;
     display: flex;
     text-align: center;

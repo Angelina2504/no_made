@@ -14,7 +14,7 @@ function Homepage() {
     </div>
 
     <div className="button-container">
-    <Link to="http://localhost:5173/plantes" className="buttonPlantes">Découvrir</Link>
+    <Link to="https://no-made.vercel.app/plantes" className="buttonPlantes">Découvrir</Link>
     </div>
 <div className="audio-container">
      <audio className='audio' controls autoPlay >
