@@ -18,7 +18,7 @@ function Homepage() {
     </div>
 <div className="audio-container">
      <audio className='audio' controls autoPlay >
-        {/* <source src="/birdsong-in-kabaty.wav" type="audio/wav" /> */}
+        { <source src="/birdsong-in-kabaty.wav" type="audio/wav" /> }
      </audio>
     </div>
         </div>
