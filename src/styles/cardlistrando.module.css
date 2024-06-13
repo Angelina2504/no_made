@@ -1,9 +1,4 @@
-/* 
-.AllCardRando {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-  } */
+
 
 .AllCardRando {
   display: flex;
@@ -17,7 +12,6 @@
   object-fit: cover;
   height: 15rem;
   width: 40rem;
-  /* filter: blur(1px); */
   opacity: 80%;
   display: flex;
   text-align: center;
@@ -25,14 +19,10 @@
 }
 
 .titreRando {
-  font-size: 1rem;
-  color: rgb(59, 33, 11);
-  font-weight: 500;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
   text-align: center;
-  padding-left: 1rem;
-  padding-right: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
 }
 .presentation {
   text-align: center;
@@ -42,23 +32,7 @@
   color: rgb(59, 33, 11);
 }
 
-/* .containerButton {
-  .buttonSuivant {
-    display: flex;
-    justify-content: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-decoration: none;
-  }
-} */
-/* .button {
-  background-color: #7c522d;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  width: 14rem;
-  height: 1.9rem;
-} */
+
 @media screen and (width >= 1200px) {
   .titreRando {
     font-size: 1.3rem;
@@ -74,7 +48,6 @@
     padding-top: 1rem;
     height: 15rem;
     width: 100rem;
-    /* filter: blur(1px); */
     opacity: 80%;
     display: flex;
     text-align: center;
